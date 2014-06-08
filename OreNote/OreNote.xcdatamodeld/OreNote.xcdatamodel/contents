@@ -8,13 +8,15 @@
     </entity>
     <entity name="Goal" syncable="YES">
         <attribute name="goal_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="goal_name" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <entity name="Task" syncable="YES">
         <attribute name="task_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="task_name" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
         <element name="Event" positionX="261" positionY="189" width="128" height="60"/>
-        <element name="Goal" positionX="261" positionY="198" width="128" height="58"/>
-        <element name="Task" positionX="270" positionY="207" width="128" height="58"/>
+        <element name="Goal" positionX="261" positionY="198" width="128" height="75"/>
+        <element name="Task" positionX="270" positionY="207" width="128" height="73"/>
     </elements>
 </model>
