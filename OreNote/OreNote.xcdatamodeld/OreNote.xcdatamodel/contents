@@ -6,11 +6,15 @@
         </attribute>
         <userInfo/>
     </entity>
-    <entity name="Goal" syncable="YES"/>
-    <entity name="Task" syncable="YES"/>
+    <entity name="Goal" syncable="YES">
+        <attribute name="goal_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Task" syncable="YES">
+        <attribute name="task_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
     <elements>
         <element name="Event" positionX="261" positionY="189" width="128" height="60"/>
-        <element name="Goal" positionX="261" positionY="198" width="128" height="45"/>
-        <element name="Task" positionX="270" positionY="207" width="128" height="45"/>
+        <element name="Goal" positionX="261" positionY="198" width="128" height="58"/>
+        <element name="Task" positionX="270" positionY="207" width="128" height="58"/>
     </elements>
 </model>
