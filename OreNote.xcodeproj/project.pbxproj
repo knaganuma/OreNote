@@ -25,6 +25,7 @@
 		E32CAB3219445B90001BAFCF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32CAB0D19445B90001BAFCF /* CoreData.framework */; };
 		E32CAB3A19445B90001BAFCF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E32CAB3819445B90001BAFCF /* InfoPlist.strings */; };
 		E32CAB3C19445B90001BAFCF /* OreNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E32CAB3B19445B90001BAFCF /* OreNoteTests.m */; };
+		E32CAB47194472D1001BAFCF /* OreNoteRootMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E32CAB46194472D1001BAFCF /* OreNoteRootMenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		E32CAB3719445B90001BAFCF /* OreNoteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OreNoteTests-Info.plist"; sourceTree = "<group>"; };
 		E32CAB3919445B90001BAFCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E32CAB3B19445B90001BAFCF /* OreNoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OreNoteTests.m; sourceTree = "<group>"; };
+		E32CAB45194472D1001BAFCF /* OreNoteRootMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OreNoteRootMenuViewController.h; sourceTree = "<group>"; };
+		E32CAB46194472D1001BAFCF /* OreNoteRootMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OreNoteRootMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				E32CAB1819445B90001BAFCF /* OreNoteAppDelegate.h */,
 				E32CAB1919445B90001BAFCF /* OreNoteAppDelegate.m */,
 				E32CAB1B19445B90001BAFCF /* Main.storyboard */,
+				E32CAB45194472D1001BAFCF /* OreNoteRootMenuViewController.h */,
+				E32CAB46194472D1001BAFCF /* OreNoteRootMenuViewController.m */,
 				E32CAB2119445B90001BAFCF /* OreNoteMasterViewController.h */,
 				E32CAB2219445B90001BAFCF /* OreNoteMasterViewController.m */,
 				E32CAB2419445B90001BAFCF /* OreNoteDetailViewController.h */,
@@ -264,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E32CAB47194472D1001BAFCF /* OreNoteRootMenuViewController.m in Sources */,
 				E32CAB1619445B90001BAFCF /* main.m in Sources */,
 				E32CAB2019445B90001BAFCF /* OreNote.xcdatamodeld in Sources */,
 				E32CAB1A19445B90001BAFCF /* OreNoteAppDelegate.m in Sources */,

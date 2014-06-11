@@ -8,8 +8,6 @@
 
 #import "OreNoteAppDelegate.h"
 
-#import "OreNoteMasterViewController.h"
-
 @implementation OreNoteAppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
@@ -19,9 +17,6 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
-    OreNoteMasterViewController *controller = (OreNoteMasterViewController *)navigationController.topViewController;
-    controller.managedObjectContext = self.managedObjectContext;
     return YES;
 }
 							
