@@ -20,6 +20,13 @@
 - (IBAction)segueOreNoteMaster:(id)sender {
     OreNoteAppDelegate *delegate = (OreNoteAppDelegate *) [[UIApplication sharedApplication] delegate];
     UINavigationController *navigationController = (UINavigationController *)delegate.window.rootViewController;
+    /* 新しいwindowを開く
+     これをやらないと(OreNoteMasterViewController *)navigationController.topViewController で
+     OreNoteRootMenuViewController が controler に設定される。
+     */
+    UIViewController *nextView = [[OreNoteMasterViewController alloc] init];
+    [navigationController pushViewController:nextView animated:YES];
+
     OreNoteMasterViewController *controller = (OreNoteMasterViewController *)navigationController.topViewController;
     controller.managedObjectContext = delegate.managedObjectContext;
     [self performSegueWithIdentifier:@"segueMaster" sender:self];
